@@ -1,5 +1,5 @@
 body{
-	background-color: green;
+	background-image: url("./Background.jpg");
 }	
 img{
 	width: 100%;	
@@ -10,6 +10,10 @@ img{
   * The css make content  smaller than the body itself
   * and centret.
   */
+  
+ h1{
+	margin-left: 50%;
+ }
 #content {
 	width: 75%;
 	margin: auto;
@@ -27,14 +31,17 @@ img{
 
 /* width will be 100% of content */
 #refreshButton{
-	width: 100%;
+	width: 40%;
+	margin-bottom: 10px;
 }
 #sendButton{
 	width: 100%;
 }
 #ledOnButton{
-	width: 100%;
+	width: 40%;
+	margin-bottom: 10px;
 }
 #ledOffButton{
-	width: 100%;
+	width: 40%;
+	margin-bottom: 10px;
 }
