@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -13,29 +14,32 @@
     </head>
      <body onload="onLoad()">
 
-		<h1>Bluifruit test</h1>
+		<h1>Select Activity</h1>
            
 		<ul id="bleDeviceList"> </ul>  
-		<div id="statusDiv">Status: Disconnected</div>
-		<div id="bleId">DeviceId:</div>
+		<!--<div id="statusDiv">Status: Disconnected</div>
+		<div id="bleId">DeviceId:</div>-->
 		<div id="debugDiv"></div>
 		<br><br>
-		<button id="refreshButton" onClick = "refreshDeviceList()">Refresh</button>
+		<button id="sleep" onClick = " ">SLEEP</button>
 		<br>
-		<button id="ledOnButton" onclick = "data('1')">Set led ON</button>
+		<button id="work" onClick = " ">WORK</button>
 		<br>
-		<button id="ledOffButton" onclick = "data('0')">Set Led Off</button>
-		<br><br><br>
-		<input type="text" id="messageInput" value="Hello"/>
+		<button id="study" onClick = "">STUDY</button>
 		<br>
-		<button id="sendButton" onclick = "sendData()">Send</button>
+		<button id="exercise" onClick = "">EXERCISE</button>
 		<br>
+		<button id="relax" onClick = "">RELAX</button>
+		<br>
+		<div id="currentRead"> Current Readings </div>
+		<span id="humid"> Humidity</span>
+		<span id="temp"> Temperature </span>
+		<span id="light"> Light </span><br>
+		<span id="humidRead"> 0%</span>
+		<span id="tempRead"> 0*C </span>
+		<span id="lightRead"> Slider </span><br>
 		
-		<br>
-		<div id="sendDiv"></div>
-		<br><br>
-		<button id="disconnectButton"onClick="disconnect()">Disconnect</button>
-		<div id="receiveDiv"></div>
+		
     </body>
 </html>
 			

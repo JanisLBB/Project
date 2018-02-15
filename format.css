@@ -1,5 +1,8 @@
+
+
 body{
 	background-image: url("./Background.jpg");
+	font-family: 'Abel', sans-serif;
 }	
 img{
 	width: 100%;	
@@ -12,11 +15,12 @@ img{
   */
   
  h1{
-	margin-left: 50%;
+	text-align: center;
  }
 #content {
 	width: 75%;
-	margin: auto;
+	margin: auto
+	font-family: 'Abel', sans-serif;;
 }
 
 #bleDeviceList{
@@ -44,4 +48,16 @@ img{
 #ledOffButton{
 	width: 40%;
 	margin-bottom: 10px;
+}
+#currentRead{
+	text-align:center;
+}
+#humid{
+margin-left: 20%;
+}
+#temp{
+margin-left: 30px;
+}
+#light{
+	margin-left: 30px;
 }
